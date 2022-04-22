@@ -14,8 +14,7 @@
     <td><input type="text" name="lebar"><br>
 </tr>
 <tr>
-    <td><input type="submit" name="input-data" value=Input>
-               
+    <td><input type="submit" name="input-data" value=Input></td>     
 </tr>
 </table>
 </form>
