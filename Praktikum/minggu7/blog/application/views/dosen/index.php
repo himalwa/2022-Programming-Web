@@ -8,7 +8,7 @@
 </head>
 <body>
     <h3>Dosen</h3>
-    <table border="1">
+    <table border="1" style="width: 100%;">
         <thead>
             <tr>
                 <th>No</th>

@@ -25,7 +25,9 @@ class Dosen extends CI_Controller{
         // Siapkan data untuk di kirim kedalam view, dimana data nya di ambil dari object yang kita simpan ke dalam array
         $data['list_dsn'] = $list_dsn;
         // render data dan kirim data ke dalam view
+        $this->load->view('layouts/header');
         $this->load->view('dosen/index', $data);
+        $this->load->view('layouts/footer');
     }
     // Method Dosen
 
