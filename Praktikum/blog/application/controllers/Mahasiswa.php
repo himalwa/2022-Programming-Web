@@ -67,5 +67,12 @@ class Mahasiswa extends CI_Controller{
         $this->mahasiswa->delete($data_mahasiswa);
         redirect('mahasiswa', 'refresh');
     }
+    public function __construct()
+    {
+        parent::__construct();
+        if(!$this->session->userdata('logged_in')){
+            redirect('/login');
+        }
+    }
 }
 ?>

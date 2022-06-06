@@ -15,9 +15,16 @@
         }
     </script>
 </head>
+<?php
+$username = $this->session->userdata('username');
+if ($username) {
+    echo "<h1>Welcome $username !</h1>";
+}
+?>
+<hr/>
 <body>
     <div class="col-md-12">
-    <h3>Dosen</h3>
+    <h3 style="text-align: center">Dosen</h3>
     <table border="1" class="table">
         <thead>
             <tr>
