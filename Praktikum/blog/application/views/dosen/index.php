@@ -41,7 +41,8 @@
                 <td><?php echo $dsn -> gender ?></td>
                 <td><?php echo $dsn -> pendidikan ?></td>
                 <td>
-                    <a href="<?php echo base_url("index.php/dosen/detail/$dsn->id") ?>">Detail</a>
+                    <a href="<?php echo base_url("index.php/dosen/detail/$dsn->id") ?>"
+                    class="btn btn-info btn-lg active">Detail</a>
                     &nbsp;
                     <a href= <?php echo base_url("index.php/dosen/edit/$dsn->id") ?> 
                     class="btn btn-success btn-lg active" >Edit</a>

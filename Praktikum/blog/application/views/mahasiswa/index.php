@@ -41,7 +41,8 @@
                 <td><?php echo $mhs -> gender ?></td>
                 <td><?php echo $mhs -> ipk ?></td>
                 <td>
-                    <a href="<?php echo base_url("index.php/mahasiswa/detail/$mhs->id") ?>">Detail</a>
+                    <a href="<?php echo base_url("index.php/mahasiswa/detail/$mhs->id") ?>"
+                    class="btn btn-info btn-lg active">Detail</a>
                     &nbsp;
                     <a href= <?php echo base_url("index.php/mahasiswa/edit/$mhs->id") ?> 
                     class="btn btn-success btn-lg active" >Edit</a>
