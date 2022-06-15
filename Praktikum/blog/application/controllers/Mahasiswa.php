@@ -96,6 +96,9 @@ class Mahasiswa extends CI_Controller{
             $data['error'] = 'data sukses';
             $data['upload_data'] = $this->upload->data();
         }
+        // kirim dan render ke detail
+        $this->load->view('layouts/header');
+        $this->load->view('mahasiswa/detail', $data);
         
     }
 }
