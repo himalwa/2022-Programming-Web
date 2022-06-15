@@ -40,7 +40,6 @@
                     <div class="mt-4">
                         <h4><?=$siswa->nama?></h4>
                         <p>Foto Mahasiswa</p>
-                        <?php echo $error;?>
                         <?php echo form_open_multipart('mahasiswa/upload');?>
                         <input type="file" name="foto" size="300">
                         <input type="hidden" name="idmahasiswa" value="<?=$siswa->id?>">
